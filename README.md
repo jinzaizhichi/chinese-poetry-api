@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/logo.png" alt="chinese-poetry" height="100px">
+<img src="docs/icon.png" alt="chinese-poetry" height="100px">
 
 <h2>中国古诗词 API 服务</h2>
 
@@ -162,12 +162,12 @@ query {
 
 本项目基于 [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) 数据集，包含：
 
-| 分类 | 数量 | 分类 | 数量 | 分类 | 数量 | 分类 | 数量 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|   分类   |  数量  |   分类   |  数量  |   分类   |  数量  |   分类   |  数量  |
+| :------: | :----: | :------: | :----: | :------: | :----: | :------: | :----: |
 | 五言绝句 | 18,895 | 七言绝句 | 85,032 | 五言律诗 | 71,400 | 七言律诗 | 69,028 |
-| 乐府诗   | 9,315  | 五代词   | 543    | 宋词     | 21,369 | 元曲     | 10,905 |
-| 诗经     | 305    | 楚辞     | 65     | 论语     | 20     | 四书五经 | 14     |
-| 其他     | 96,232 |         |        |          |        |        |        |
+|  乐府诗  | 9,315  |  五代词  |  543   |   宋词   | 21,369 |   元曲   | 10,905 |
+|   诗经   |  305   |   楚辞   |   65   |   论语   |   20   | 四书五经 |   14   |
+|   其他   | 96,232 |          |        |          |        |          |        |
 
 ```mermaid
 pie title 收录数据分布概览 (忽略极小值)
@@ -183,4 +183,3 @@ pie title 收录数据分布概览 (忽略极小值)
 
 - 数据来源：[chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
 - 简繁转换：[gocc](https://github.com/liuzl/gocc)
-
